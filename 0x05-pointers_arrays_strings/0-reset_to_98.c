@@ -2,6 +2,7 @@
 
 /**
  * main - update int n to 98
+ * reset_to_98 - rest n to 98
  * @n: points to the value to be changed
  * Return: void
  */
