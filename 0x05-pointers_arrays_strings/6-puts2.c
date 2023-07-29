@@ -2,30 +2,16 @@
 /**
  * puts2 - print character of a string
  * @str: input
- * Return: print
+ * Return: 0
  */
 void puts2(char *str)
 {
-	int longi = 0;
-	int t = 0;
-	char *y = str;
-	int o;
+	int j;
 
-	while (*y != '\0')
+	for (j = 0 ; str[j] != '\0' ; j++)
 	{
-		Y++;
-		longi++;
-	}
-	t = longi - 1;
-
-	for (o = 0 ; o <= t ; o++)
-	{
-		if (o % 2 == 0)
-		{
-			_putchar(str[o]);
-		}
+		if (j % 2 == 0)
+			_putchar(str[j]);
 	}
 	_putchar('\n');
-
-
 }
